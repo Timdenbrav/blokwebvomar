@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/Vomar Homescreen.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/Vomar Homescreen.jpg" width="375px" alt="screenshot van de home pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/Vomar Recepten screen.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/Vomar Recepten screen.jpg" width="375px" alt="screenshot van de recepten pagina">
  
 </details>
 
