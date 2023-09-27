@@ -39,12 +39,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Homepage  
-  <img src="readme-images/Vomar Homescreen.jpg" width="375px" alt="screenshot van de home pagina">
+  hier de naam van de pagina  
+  <img src="readme-images/Vomar Homescreen.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Recepten  
-  <img src="readme-images/Vomar Recepten screen.jpg" width="375px" alt="screenshot van de recepten pagina">
+  hier de naam van de pagina  
+  <img src="readme-images/Vomar Recepten screen.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
