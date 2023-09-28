@@ -17,6 +17,34 @@
     --vomar-bruin: #877461;
 
     --vomar-footer: #ededed;
+
+    --hoofdKleur: #fc0816; /* Hoofdkleur (standaard rood) */
+    --accentKleur: #000; /* Accentkleur (standaard zwart) */
+    --achtergrondKleur: #fff; /* Achtergrondkleur (standaard wit) */
+}
+
+/* Aangepaste variabelen aanpassen op basis van de voorkeurskleurmodus (donkere modus) */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --vomar-rood: black; /* Hoofdkleur (donkere modus) */
+        --vomar-zwart: rgb(33, 33, 33); /* Accentkleur (donkere modus) */
+        --vomar-wit: #fff; /* Achtergrondkleur (donkere modus) */
+        --vomar-groen: rgb(156, 156, 156);
+        --vomar-bruin: rgb(156, 156, 156);
+        --vomar-bruin-button: rgb(103, 103, 103);
+    }
+
+    header ul {
+        color: black;
+    }
+
+    h3 {
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
 }
 
 * {
@@ -183,12 +211,8 @@ header nav {
         margin-right: 1em;
         list-style-type: none;
         text-align: center;
-        padding: 0.7em;
         margin: 1em;
-        background-color: var(--vomar-wit);
-        border-radius: 0.5em;
         cursor: pointer;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     }
 
     header button {
@@ -200,7 +224,11 @@ header nav {
         border-radius: 0;
         text-decoration: none;
         font-weight: bold;
-        color: var(--vomar-rood);
+        color: var(--vomar-wit);
+    }
+
+    header a:hover {
+        font-size: large;
     }
 }
 
