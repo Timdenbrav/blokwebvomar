@@ -95,9 +95,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   samen met je groepje opstellen
 
 **Sanne:** Ik heb tot nu toe nog niet echt vragen...
+
 **Maeren:** Ik heb wel een aantal vraagjes, maar ik ben ook nog niet zo ver.
+
 **Bente:** Ik heb wat vragen over toegankelijkheid en het formaat van foto's.
+
 **Jamie:** Ik wil vragen om te kijken naar mijn html en nog een ander vraagje.
+
 **Ik (Tim):** Ik wil een paar dingen vragen over mijn HTML en CSS en de opbouw hiervan.
 
 
