@@ -132,11 +132,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-**Student 1:** Ik heb wat vragen over toegankelijkheid en formaat van foto's.
-**Student 2:** Ja, ik heb wel een aantal vraagjes. Maar ben ook nog niet zo ver.
-**Student 3:** Ik wil hem ff vragen om te kijken naar mijn HTML en nog een ander vraagje.
-**Student 4:** Ja ik heb ook wel paar vraagjes over mn html.
-**Student 5:** Ik ben ook nog niet heel ver maar wil wel nog wat vragen over mn html en css en de opbouw ervan.
+**Stella:** Ik heb vragen over mijn hamburger menu.
+
+**Maeren:** Ik heb vragen over mijn hamburger menu en een vraagje over hoe je een gedownload font op je website kan zetten.
+
+**Bente:** Ik heb wat vragen over deze dingen: Responsive, Nav en uitklap menu, Grid voor foto galerij.
+
+**Ik (Tim):** Ik heb ook vragen over mijn hamburger menu en hoe ik deze werkend kan maken.
 
 
   ### Verslag van meeting
@@ -192,11 +194,11 @@ Feedback FED
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+**Sanne:** Ik heb een vraag over mijn img in de h1.
+
+**Bente:** Ik heb vragen over mijn footer, responsive, javascript en een paar kleine dingen op mijn website.
+
+**Ik (Tim):** Ik heb vragen over responsive, over de focus state en nog een laatste check van mijn hele website.
 
 
   ### Verslag van meeting
