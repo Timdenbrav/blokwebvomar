@@ -259,8 +259,8 @@ Feedback FED
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. www.chat.openai.com
+  2. https://www.w3schools.com/tags/att_input_placeholder.asp
+  3. https://www.dofactory.com/html/body/class
 
 </details>
