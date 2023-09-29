@@ -58,6 +58,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  - Er kwamen veel errors naar boven zoals dat ze een 'img' element gebruiken zonder het attribuut 'src'.
+  - De HTML was dus invalid
+  - Veel errors ook door het vele gebruik van Div's.
+
 </details>
 
 
