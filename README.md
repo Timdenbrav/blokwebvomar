@@ -108,10 +108,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Opbouw ziet er prima uit
+  - Zorg ervoor dat wanneer je een langer css bestand heb je wel overzicht kunt behouden
+  - Denk aan meer ruimtes tussen de elementen en groeperen wat bij wat hoort
+  - Zet :root bovenaan met de kleuren erin zodat je met var() elke keer die bestaande kleur kunt ophalen
 
 </details>
 
@@ -176,6 +176,10 @@ Feedback FED
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  - Er was geen zichtbare focus style voor interactieve elementen dat genavigeerd was via het toetsenbord. Dat heb ik gefixt door de :focus state aan de interactieve elementen toe te voegen.
+  - 'Check of de dark / light mode ondersteund wordt.' -> Dit was niet zo, in de checklist heb ik ook 'No' omcirkeld. Maar ik heb dit naderhand toegevoegd aan mijn website.
+  - 'Check of high-contrast mode ondersteud wordt.' -> Dit was ook niet zo, maar ik heb dit aangepast en heb het nu wel verwerkt in mijn website.
+
 </details>
 
 
@@ -204,10 +208,12 @@ Feedback FED
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Label boven het invulveld van mijn form
+  - Dark achtergrond toevoegen. Dark mode werkt nu wel, maar het ziet er nog niet echt uit als een dark mode.
+  - Verander de dark mode in High contrast mode, je hoeft dan maar een paar dingen aan te passen.
+  - Check contrast door -> inspecteren -> hover over het element. Check door Aa of Aaa.
+  - Alles mooi responsive maken! Mooie plekken voor op desktop mode -> De teksten zo groot laten als op mobile en alleen de witrumtes ernaast laten meeveren.
+  - Voeg de focusstate toe. :focus ipv :hover en dan bijvoorbeeld kleur van tekst laten veranderen of er een border omheen zetten.
 
 </details>
 
