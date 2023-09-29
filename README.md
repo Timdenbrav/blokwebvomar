@@ -94,11 +94,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  **Sanne:** Ik heb tot nu toe nog niet echt vragen...
+  **Maeren:** Ik heb wel een aantal vraagjes, maar ik ben ook nog niet zo ver.
+  **Bente:** Ik heb wat vragen over toegankelijkheid en het formaat van foto's.
+  **Jamie:** Ik wil vragen om te kijken naar mijn html en nog een ander vraagje.
+  **Ik (Tim):** Ik wil een paar dingen vragen over mijn HTML en CSS en de opbouw hiervan.
 
 
   ### Verslag van meeting
