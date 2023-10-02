@@ -283,6 +283,22 @@ Feedback FED
   
   <img src="readme-images/menu desktop.png" width="375px" alt="menu desktop">
 
+  ----------------------------------------------------------------------
+
+  Hieronder zie je mijn form op mobile formaat die nog niet ingevuld is:
+  
+  <img src="readme-images/form niet ingevuld.png" width="375px" alt="form niet ingevuld">
+  
+
+  Hieronder zie je mijn form op mobile formaat waarbij enkel de naam nog correct is ingevuld:
+  
+  <img src="readme-images/form naam ingevuld.png" width="375px" alt="form naam ingevuld">
+
+
+  Hieronder zie je mijn form op mobile formaat die volledig correct is ingevuld:
+  
+  <img src="readme-images/form volledig ingevuld.png" width="375px" alt="form volledig ingevuld">  
+
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
