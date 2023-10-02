@@ -260,6 +260,9 @@ Feedback FED
   1. www.chat.openai.com
   2. https://www.w3schools.com/tags/att_input_placeholder.asp
   3. https://www.dofactory.com/html/body/class
-  4. https://codepen.io/shooft/pen/OJrPwyv
+  4. https://codepen.io/shooft/pen/MWZYoXw
+  5. https://dlo.mijnhva.nl/content/enforced/536487-FDMCI-2000FED121-DMCI-CMD-2324/FED%2023-24%20-%20Blok%201%20-%20Oefening%20flexbox.pdf
+  6. https://codepen.io/shooft/pen/OJrPwyv
+  7. https://dlo.mijnhva.nl/content/enforced/536487-FDMCI-2000FED121-DMCI-CMD-2324/FED%2023-24%20-%20Blok%201%20-%20Oefening%20toegankelijkheid%202%20van%202.pdf
 
 </details>
