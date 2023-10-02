@@ -92,7 +92,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb de homepagina, recepten pagina, css en javascript aangemaakt en met elkaar gekoppeld. Verder heb ik al een begin gemaakt met het schrijven van mijn html op de homepagina.
 
 
   ### Agenda voor meeting
@@ -196,7 +196,8 @@ Feedback FED
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb nu een goed werkend menu en alles is zo goed als responsive. Het eindresultaat komt in zicht en ben trots op wat ik tot nu toe heb bereikt en heb geleerd.
+  Verder moet ik nog de :focus states toevoegen aan mijn linkjes en buttons en heb hier een paar vragen over in het feedbackgesprek.
 
 
   ### Agenda voor meeting
