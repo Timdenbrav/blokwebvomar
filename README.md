@@ -250,7 +250,7 @@ Feedback FED
   
   <img src="readme-images/screenshot home desktop dark.png" width="375px" alt="screenshot home desktop dark">
 
--
+----------------------------------------------------------------------
 
   Hieronder zie je mijn recepten pagina op mobile formaat op light mode:
   
@@ -271,6 +271,17 @@ Feedback FED
   
   <img src="readme-images/screenshot recepten desktop dark.png" width="375px" alt="screenshot recepten desktop dark">
 
+  ----------------------------------------------------------------------
+
+  
+  Hieronder zie je mijn recepten pagina op mobile formaat op dark mode:
+  
+  <img src="readme-images/screenshot recepten mobile dark.png" width="375px" alt="screenshot recepten mobile dark">
+
+
+  Hieronder zie je mijn recepten pagina op desktop formaat op dark mode:
+  
+  <img src="readme-images/screenshot recepten desktop dark.png" width="375px" alt="screenshot recepten desktop dark">
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
