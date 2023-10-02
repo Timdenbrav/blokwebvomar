@@ -260,5 +260,6 @@ Feedback FED
   1. www.chat.openai.com
   2. https://www.w3schools.com/tags/att_input_placeholder.asp
   3. https://www.dofactory.com/html/body/class
+  4. https://codepen.io/shooft/pen/OJrPwyv
 
 </details>
