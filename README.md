@@ -300,15 +300,21 @@ Feedback FED
   <img src="readme-images/form volledig ingevuld.png" width="375px" alt="form volledig ingevuld">  
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Korte omschrijving
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+ - Ik vond het sollicitatie formulier maken heel leuk om te doen en heb hier ook veel van geleerd.
+ - Ik heb eigenlijk van elk stukje code wel wat geleerd. Veel dingen kende ik ook al wel, zoals sections en articles.
+ - Ik heb geleerd hoe je makkelijk elementen responsive kunt maken.
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Korte omschrijving
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+ - Het hamburgermenu werkend maken vond ik heel lastig, maar na lang proberen en met behulp van de docent en studenassistenten is het me toch gelukt.
+ - Het menu responsive maken (dat hij uitklapt na een bepaalde schermbreedte) vond ik ook erg lastig, maar ook dit is me gelukt.
+ - Er is niet iets niet gelukt wat ik wel wilde hebben. Ik ben dus trots op wat ik uiteindelijk heb gemaakt.
+
+  
 </details>
 
 
