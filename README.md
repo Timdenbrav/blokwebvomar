@@ -40,10 +40,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Homepagina 
+  
   <img src="readme-images/Vomar Homescreen.jpg" width="375px" alt="Homepagina Vomar">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Recepten pagina  
+  
   <img src="readme-images/Vomar Recepten screen.jpg" width="375px" alt="Recepten pagina Vomar">
  
 </details>
@@ -232,6 +234,21 @@ Feedback FED
   Hieronder zie je mijn homepagina op mobile formaat op light mode:
   
   <img src="readme-images/screenshot home mobile light.png" width="375px" alt="screenshot home mobile light">
+
+
+  Hieronder zie je mijn homepagina op desktop formaat op light mode:
+  
+  <img src="readme-images/screenshot home desktop light.png" width="375px" alt="screenshot home desktop light">
+  
+
+  Hieronder zie je mijn homepagina op mobile formaat op dark mode:
+  
+  <img src="readme-images/screenshot home mobile dark.png" width="375px" alt="screenshot home mobile dark">
+
+
+  Hieronder zie je mijn homepagina op desktop formaat op dark mode:
+  
+  <img src="readme-images/screenshot home desktop dark.png" width="375px" alt="screenshot home desktop dark">
 
 
   ### Dit ging goed/Heb ik geleerd: 
