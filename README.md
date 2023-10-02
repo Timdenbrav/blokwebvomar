@@ -230,7 +230,7 @@ Feedback FED
 
   ### Je uitkomst - karakteristiek screenshots:
   Hieronder zie je mijn homepagina op mobile formaat op light mode:
-  <img src="screenshot home mobile light.png" width="375px" alt="screenshot home mobile light">
+  <img src="readme-images/screenshot home mobile light.png" width="375px" alt="screenshot home mobile light">
 
 
   ### Dit ging goed/Heb ik geleerd: 
