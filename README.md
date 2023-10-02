@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  [link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp](https://www.vomar.nl)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/Vomar Homescreen.jpg" width="375px" alt="omschrijving van de pagina">
+  Homepagina 
+  <img src="readme-images/Vomar Homescreen.jpg" width="375px" alt="Homepagina Vomar">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/Vomar Recepten screen.jpg" width="375px" alt="omschrijving van de pagina">
+  Recepten pagina  
+  <img src="readme-images/Vomar Recepten screen.jpg" width="375px" alt="Recepten pagina Vomar">
  
 </details>
 
@@ -58,6 +58,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  - Er kwamen veel errors naar boven zoals dat ze een 'img' element gebruiken zonder het attribuut 'src'.
+  - De HTML was dus invalid
+  - Veel errors ook door het vele gebruik van Div's.
+
 </details>
 
 
@@ -68,10 +72,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/breakdown schets homepagina.png" width="375px" alt="breakdown van de hele homepagina">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/menuschets.png" width="375px" alt="breakdown van een dynamisch deel, het menu">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+
+  ### wellicht nog een dynamisch deel (bijv filter): 
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -85,26 +92,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb de homepagina, recepten pagina, css en javascript aangemaakt en met elkaar gekoppeld. Verder heb ik al een begin gemaakt met het schrijven van mijn html op de homepagina.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+**Sanne:** Ik heb tot nu toe nog niet echt vragen...
+
+**Maeren:** Ik heb wel een aantal vraagjes, maar ik ben ook nog niet zo ver.
+
+**Bente:** Ik heb wat vragen over toegankelijkheid en het formaat van foto's.
+
+**Jamie:** Ik wil vragen om te kijken naar mijn html en nog een ander vraagje.
+
+**Ik (Tim):** Ik wil een paar dingen vragen over mijn HTML en CSS en de opbouw hiervan.
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Opbouw ziet er prima uit
+  - Zorg ervoor dat wanneer je een langer css bestand heb je wel overzicht kunt behouden
+  - Denk aan meer ruimtes tussen de elementen en groeperen wat bij wat hoort
+  - Zet :root bovenaan met de kleuren erin zodat je met var() elke keer die bestaande kleur kunt ophalen
 
 </details>
 
@@ -125,11 +136,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-**Student 1:** Ik heb wat vragen over toegankelijkheid en formaat van foto's.
-**Student 2:** Ja, ik heb wel een aantal vraagjes. Maar ben ook nog niet zo ver.
-**Student 3:** Ik wil hem ff vragen om te kijken naar mijn HTML en nog een ander vraagje.
-**Student 4:** Ja ik heb ook wel paar vraagjes over mn html.
-**Student 5:** Ik ben ook nog niet heel ver maar wil wel nog wat vragen over mn html en css en de opbouw ervan.
+**Stella:** Ik heb vragen over mijn hamburger menu.
+
+**Maeren:** Ik heb vragen over mijn hamburger menu en een vraagje over hoe je een gedownload font op je website kan zetten.
+
+**Bente:** Ik heb wat vragen over deze dingen: Responsive, Nav en uitklap menu, Grid voor foto galerij.
+
+**Ik (Tim):** Ik heb ook vragen over mijn hamburger menu en hoe ik deze werkend kan maken.
 
 
   ### Verslag van meeting
@@ -167,6 +180,10 @@ Feedback FED
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  - Er was geen zichtbare focus style voor interactieve elementen dat genavigeerd was via het toetsenbord. Dat heb ik gefixt door de :focus state aan de interactieve elementen toe te voegen.
+  - 'Check of de dark / light mode ondersteund wordt.' -> Dit was niet zo, in de checklist heb ik ook 'No' omcirkeld. Maar ik heb dit naderhand toegevoegd aan mijn website.
+  - 'Check of high-contrast mode ondersteud wordt.' -> Dit was ook niet zo, maar ik heb dit aangepast en heb het nu wel verwerkt in mijn website.
+
 </details>
 
 
@@ -179,26 +196,29 @@ Feedback FED
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb nu een goed werkend menu en alles is zo goed als responsive. Het eindresultaat komt in zicht en ben trots op wat ik tot nu toe heb bereikt en heb geleerd.
+  Verder moet ik nog de :focus states toevoegen aan mijn linkjes en buttons en heb hier een paar vragen over in het feedbackgesprek.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+**Sanne:** Ik heb een vraag over mijn img in de h1.
+
+**Bente:** Ik heb vragen over mijn footer, responsive, javascript en een paar kleine dingen op mijn website.
+
+**Ik (Tim):** Ik heb vragen over responsive, over de focus state en nog een laatste check van mijn hele website.
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Label boven het invulveld van mijn form
+  - Dark achtergrond toevoegen. Dark mode werkt nu wel, maar het ziet er nog niet echt uit als een dark mode.
+  - Verander de dark mode in High contrast mode, je hoeft dan maar een paar dingen aan te passen.
+  - Check contrast door -> inspecteren -> hover over het element. Check door Aa of Aaa.
+  - Alles mooi responsive maken! Mooie plekken voor op desktop mode -> De teksten zo groot laten als op mobile en alleen de witrumtes ernaast laten meeveren.
+  - Voeg de focusstate toe. :focus ipv :hover en dan bijvoorbeeld kleur van tekst laten veranderen of er een border omheen zetten.
 
 </details>
 
@@ -240,8 +260,8 @@ Feedback FED
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. www.chat.openai.com
+  2. https://www.w3schools.com/tags/att_input_placeholder.asp
+  3. https://www.dofactory.com/html/body/class
 
 </details>
