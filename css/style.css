@@ -90,14 +90,42 @@ body {
 
 /* Stijl voor de focus state van alle buttons */
 button:focus {
-    outline: none; /* Verwijderd de standaard focus outline */
-    border: 0.15em solid black; /* Voeg een zwarte border toe */
+    outline: none;
+    /* Verwijderd de standaard focus outline */
+    border: 0.15em solid black;
+    /* Voeg een zwarte border toe */
 }
 
 /* Stijl voor de focus state van alle links */
 a:focus {
-    outline: none; /* Verwijderd de standaard focus outline */
-    border: 0.15em solid black; /* Voeg een zwarte border toe */
+    outline: none;
+    /* Verwijderd de standaard focus outline */
+    border: 0.15em solid black;
+    /* Voeg een zwarte border toe */
+}
+
+/* vanaf een schermbreedte van meer dan 973px zorg ik ervoor dat de content goed leesbaar blijft en heb daarom een padding-right en margin-left eraan toegevoegd. */
+@media screen and (min-width: 973px) {
+    main {
+        padding-right: 10em;
+        margin-left: 10em;
+    }
+}
+
+/* vanaf een schermbreedte van meer dan 1127px zorg ik ervoor dat de content goed leesbaar blijft en heb daarom een padding-right en margin-left eraan toegevoegd. */
+@media screen and (min-width: 1127px) {
+    main {
+        padding-right: 10em;
+        margin-left: 10em;
+    }
+}
+
+/* vanaf een schermbreedte van meer dan 1300px zorg ik ervoor dat de content goed leesbaar blijft en heb daarom een padding-right en margin-left eraan toegevoegd. */
+@media screen and (min-width: 1300px) {
+    main {
+        padding-right: 20em;
+        margin-left: 20em;
+    }
 }
 
 
@@ -417,16 +445,6 @@ section article:nth-of-type(1) p {
     color: var(--vomar-wit);
 }
 
-/* Aanpassingen voor mobiele schermen */
-@media screen and (min-width: 650px) {
-    section:nth-of-type(2) article:nth-of-type(1) {
-        padding-left: 10em;
-        /* Aanpassing van de linker witruimte */
-        padding-right: 10em;
-        /* Aanpassing van de rechter witruimte */
-    }
-}
-
 
 /*******************************/
 /*******************************/
@@ -549,6 +567,7 @@ legend {
 
 section form label {
     color: var(--vomar-wit);
+    margin-bottom: -0.5em;
 }
 
 section form input {
@@ -556,7 +575,7 @@ section form input {
     border-color: var(--vomar-zwart);
     padding: .5em;
     font-size: 1.25em;
-    margin-bottom: 0.7em;
+    margin-bottom: 1em;
     width: 100%;
     transition: all .1s;
     z-index: 2;
@@ -679,30 +698,7 @@ fieldset:valid .feedback {
     max-width: 100%;
 }
 
-@media screen and (min-width: 973px) {
-    .recepten article {
-        text-align: center;
-    }
 
-    .recepten article p {
-        padding-right: 10em;
-        margin-left: 10em;
-    }
-}
-
-@media screen and (min-width: 1127px) {
-    .recepten article p {
-        padding-right: 10em;
-        margin-left: 10em;
-    }
-}
-
-@media screen and (min-width: 1300px) {
-    .recepten article p {
-        padding-right: 25em;
-        margin-left: 25em;
-    }
-}
 
 
 
@@ -748,5 +744,7 @@ footer a img {
 /* www.chat.openai.com */
 /* https://www.w3schools.com/tags/att_input_placeholder.asp */
 /* https://www.dofactory.com/html/body/class */
-/*  */
-/*  */
+/* https://codepen.io/shooft/pen/MWZYoXw */
+/* https://dlo.mijnhva.nl/content/enforced/536487-FDMCI-2000FED121-DMCI-CMD-2324/FED%2023-24%20-%20Blok%201%20-%20Oefening%20flexbox.pdf */
+/* https://codepen.io/shooft/pen/OJrPwyv */
+/* https://dlo.mijnhva.nl/content/enforced/536487-FDMCI-2000FED121-DMCI-CMD-2324/FED%2023-24%20-%20Blok%201%20-%20Oefening%20toegankelijkheid%202%20van%202.pdf */
