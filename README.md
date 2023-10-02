@@ -274,14 +274,14 @@ Feedback FED
   ----------------------------------------------------------------------
 
   
-  Hieronder zie je mijn recepten pagina op mobile formaat op dark mode:
+  Hieronder zie je mijn menu uitgeklapt op mobile formaat op light mode:
   
-  <img src="readme-images/screenshot recepten mobile dark.png" width="375px" alt="screenshot recepten mobile dark">
+  <img src="readme-images/menu uitgeklapt.png" width="375px" alt="menu mobile">
 
 
-  Hieronder zie je mijn recepten pagina op desktop formaat op dark mode:
+  Hieronder zie je mijn menu op desktop formaat op light mode:
   
-  <img src="readme-images/screenshot recepten desktop dark.png" width="375px" alt="screenshot recepten desktop dark">
+  <img src="readme-images/menu desktop.png" width="375px" alt="menu desktop">
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
