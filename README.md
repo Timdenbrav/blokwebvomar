@@ -75,7 +75,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/breakdown schets homepagina.png" width="375px" alt="breakdown van de hele homepagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/menuschets.png width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/menuschets.png" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
