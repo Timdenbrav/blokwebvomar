@@ -6,8 +6,11 @@
 
 :root {
     --vomar-rood: #fc0816;
+    /* Hoofdkleur (standaard rood) */
     --vomar-wit: #fff;
+    /* Achtergrondkleur (standaard wit) */
     --vomar-zwart: #000;
+    /* Accentkleur (standaard zwart) */
 
     --vomar-form-color: #f5f5f5;
 
@@ -16,34 +19,59 @@
     --vomar-bruin-button: #67594b;
     --vomar-bruin: #877461;
 
-    --vomar-footer: #ededed;
+    --vomar-groen-input: rgb(133, 220, 144);
+    --vomar-groen-form: rgb(0, 176, 18);
 
-    --hoofdKleur: #fc0816; /* Hoofdkleur (standaard rood) */
-    --accentKleur: #000; /* Accentkleur (standaard zwart) */
-    --achtergrondKleur: #fff; /* Achtergrondkleur (standaard wit) */
+    --vomar-footer: #ededed;
 }
 
 /* Aangepaste variabelen aanpassen op basis van de voorkeurskleurmodus (donkere modus) */
 @media (prefers-color-scheme: dark) {
     :root {
-        --vomar-rood: black; /* Hoofdkleur (donkere modus) */
-        --vomar-zwart: rgb(33, 33, 33); /* Accentkleur (donkere modus) */
-        --vomar-wit: #fff; /* Achtergrondkleur (donkere modus) */
+        --vomar-rood: black;
+        /* Hoofdkleur (donkere modus) */
+        --vomar-zwart: rgb(255, 255, 255);
+        /* Accentkleur (donkere modus) */
+        --vomar-wit: #fff;
+        /* Achtergrondkleur (donkere modus) */
+        --vomar-grijs: #6a6a6a;
+        /* Body kleur (donkere modus) */
+
         --vomar-groen: rgb(156, 156, 156);
         --vomar-bruin: rgb(156, 156, 156);
         --vomar-bruin-button: rgb(103, 103, 103);
+        --vomar-groen-input: #cde8c6;
+        --vomar-groen-form: rgb(156, 156, 156);
+        --vomar-footer: black;
+    }
+
+    body {
+        background-color: var(--vomar-grijs);
     }
 
     header ul {
-        color: black;
+        color: var(--vomar-rood);
     }
 
     h3 {
-        color: white;
+        color: var(--vomar-wit);
     }
 
     p {
-        color: white;
+        color: var(--vomar-zwart);
+    }
+
+    section form:invalid {
+        background: var(--vomar-rood);
+    }
+
+    section article p {
+        color: var(--vomar-wit);
+    }
+
+    footer a img {
+        filter: brightness(0) invert(1);
+        /* Invert zorgt ervoor dat de kleur (zwart) wordt omgekeerd naar wit */
     }
 }
 
@@ -60,7 +88,17 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+/* Stijl voor de focus state van alle buttons */
+button:focus {
+    outline: none; /* Verwijderd de standaard focus outline */
+    border: 0.15em solid black; /* Voeg een zwarte border toe */
+}
 
+/* Stijl voor de focus state van alle links */
+a:focus {
+    outline: none; /* Verwijderd de standaard focus outline */
+    border: 0.15em solid black; /* Voeg een zwarte border toe */
+}
 
 
 /*******************************/
@@ -379,7 +417,15 @@ section article:nth-of-type(1) p {
     color: var(--vomar-wit);
 }
 
-
+/* Aanpassingen voor mobiele schermen */
+@media screen and (min-width: 650px) {
+    section:nth-of-type(2) article:nth-of-type(1) {
+        padding-left: 10em;
+        /* Aanpassing van de linker witruimte */
+        padding-right: 10em;
+        /* Aanpassing van de rechter witruimte */
+    }
+}
 
 
 /*******************************/
@@ -445,35 +491,140 @@ section:nth-of-type(3) article a {
 /*******************************/
 
 
-section:nth-of-type(4) form {
+section form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    transition: all .2s;
     padding: 1em;
-    color: var(--vomar-wit);
-    background-color: var(--vomar-rood);
+    background: var(--vomar-groen-form);
+    margin: 0 auto;
+    overflow: hidden;
 }
 
-
-section:nth-of-type(4) form input {
-    margin-left: -0.2em;
-    margin-bottom: 0.5em;
-    border-radius: 5em;
-    border: transparent;
-    outline: none;
-    background-color: var(--vomar-form-color);
+section form:invalid {
+    background: var(--vomar-rood);
 }
 
-section:nth-of-type(4) form button {
-    margin-left: -0.2em;
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 1em;
     border: none;
-    border-radius: 5em;
-    font-weight: bold;
-    outline: none;
-    cursor: pointer;
+    transition: all .2s;
+    padding: 1em 1em 0;
+    position: relative;
+}
+
+fieldset+fieldset {
+    opacity: 0;
+    transition: .25s .25s;
+    transform: translateX(-120%)
+}
+
+fieldset:valid+fieldset {
+    opacity: 1;
+    transform: translateX(0)
+}
+
+fieldset:valid p {
+    display: block;
+    background: var(--vomar-wit);
+}
+
+fieldset:invalid p {
+    display: none;
+}
+
+legend {
     color: var(--vomar-wit);
+    font-weight: bold;
+    transform: translateY(1.5rem);
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    position: relative;
+    z-index: 5
+}
+
+section form label {
+    color: var(--vomar-wit);
+}
+
+section form input {
+    margin-left: -0.1em;
+    border-color: var(--vomar-zwart);
+    padding: .5em;
+    font-size: 1.25em;
+    margin-bottom: 0.7em;
+    width: 100%;
+    transition: all .1s;
+    z-index: 2;
+}
+
+section form input:valid {
+    background-color: var(--vomar-groen-input);
+}
+
+section form input:invalid {
+    border-color: var(--vomar-rood);
+    background: var(--vomar-form-color);
+}
+
+section form input:focus {
+    transform: scale(1.01, 1.01);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0)
+}
+
+section form input:disabled {
+    border-color: var(--vomar-wit);
     background-color: var(--vomar-rood);
-    box-shadow: 2px 4px 5px 3px rgba(0, 0, 0, 0.4);
+}
+
+section form input::placeholder {
+    color: rgba(0, 0, 0, .25);
+}
+
+section form button {
+    margin-bottom: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 1em;
+    transition: all .1s .1s;
+    opacity: 0;
+    border-radius: 0.5em;
+    background-color: var(--vomar-wit);
+    color: var(--vomar-rood);
+    outline: none;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)
+}
+
+section form:valid button {
+    opacity: 1
+}
+
+section form button:focus {
+    transform: scale(1.1, 1.1);
+}
+
+.feedback {
+    position: absolute;
+    top: 15.3em;
+    right: 6em;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 50%;
+    transform: translateY(-3rem);
+    z-index: 10;
+    transition: .25s;
+}
+
+fieldset:valid .feedback {
+    transform: translateY(0)
 }
 
 
@@ -528,6 +679,31 @@ section:nth-of-type(4) form button {
     max-width: 100%;
 }
 
+@media screen and (min-width: 973px) {
+    .recepten article {
+        text-align: center;
+    }
+
+    .recepten article p {
+        padding-right: 10em;
+        margin-left: 10em;
+    }
+}
+
+@media screen and (min-width: 1127px) {
+    .recepten article p {
+        padding-right: 10em;
+        margin-left: 10em;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .recepten article p {
+        padding-right: 25em;
+        margin-left: 25em;
+    }
+}
+
 
 
 
@@ -562,6 +738,7 @@ footer ul li a {
 }
 
 footer a img {
+    color: var(--vomar-zwart);
     width: 2.5em;
     padding: 0.4em;
 }
