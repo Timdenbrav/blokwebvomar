@@ -231,6 +231,8 @@ Feedback FED
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
+  Link naar mijn definitieve website: (https://timdenbrav.github.io/blokwebvomar/) 
+  
   Hieronder zie je mijn homepagina op mobile formaat op light mode:
   
   <img src="readme-images/screenshot home mobile light.png" width="375px" alt="screenshot home mobile light">
