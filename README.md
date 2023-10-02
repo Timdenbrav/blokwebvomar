@@ -229,9 +229,9 @@ Feedback FED
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/screenshot home mobile light.png" width="375px" alt="screenshot home mobile light">
+  Hieronder zie je mijn homepagina op mobile formaat op light mode:
   
-  Hierboven zie je mijn homepagina op mobile formaat op light mode:
+  <img src="readme-images/screenshot home mobile light.png" width="375px" alt="screenshot home mobile light">
 
 
   ### Dit ging goed/Heb ik geleerd: 
