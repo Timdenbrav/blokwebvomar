@@ -3,5 +3,4 @@ var Hamburgerul = document.querySelector("ul")
 
 HamburgerButton.onclick = function () {
     Hamburgerul.classList.toggle("open")
-
 }
